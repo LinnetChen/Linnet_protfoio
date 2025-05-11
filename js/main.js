@@ -37,52 +37,6 @@ const App = {
       ],
       projects: [
         {
-          name: "遊戲 2 週年活動頁",
-          skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "project/Fly_20230614_event2anniversary(noTidy)/index.html",
-          description: [
-            "Photoshop製作視覺layout",
-            "使用HTML和CSS進行網頁設計切版",
-            "使用JavaScript、jQuery開發前端功能",
-          ],
-          img: [
-            "img/web/web_ff2th_1.jpg",
-            "img/web/web_ff2th_2.jpg",
-            "img/web/web_ff2th_3.jpg",
-          ],
-        },
-        {
-          name: "遊戲 1 週年活動頁",
-          skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "project/",
-          description: [
-            "Photoshop製作視覺layout",
-            "使用HTML和CSS進行網頁設計切版",
-            "使用JavaScript、jQuery開發前端功能",
-          ],
-          img: [
-            "img/web/web_ff1th_1.jpg",
-            "img/web/web_ff1th_2.jpg",
-            "img/web/web_ff1th_3.jpg",
-          ],
-        },
-        {
-          name: "遊戲 3 週年活動頁",
-          skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "project/SRO_20221209_event3anniversary/index.html",
-          description: [
-            "Photoshop製作視覺layout",
-            "使用HTML和CSS進行響應式網頁設計切版",
-            "使用JavaScript、jQuery開發前端功能",
-          ],
-          img: [
-            "img/web/web_so_1.jpg",
-            "img/web/web_so_2.jpg",
-            "img/web/web_so_3.jpg",
-            "img/web/web_so_4.jpg",
-          ],
-        },
-        {
           name: "遊戲事前預約頁",
           skills: ["SCSS", "javascript", "jQuery", "Vue.js"],
           url: "project/bp_prereg/prereg.html",
@@ -99,6 +53,53 @@ const App = {
             "img/web/web_bp_4.jpg",
             "img/web/web_bp_5.jpg",
             "img/web/web_bp_6.jpg",
+          ],
+        },
+        {
+          name: "遊戲 2 週年活動頁",
+          skills: ["HTML", "CSS", "javascript", "jQuery"],
+          url: "project/Fly_20230614_event2anniversary(noTidy)/index.html",
+          description: [
+            "Photoshop製作視覺layout",
+            "使用HTML和CSS進行網頁設計切版",
+            "使用JavaScript、jQuery開發前端功能",
+          ],
+          img: [
+            "img/web/web_ff2th_2.gif",
+            "img/web/web_ff2th_1.jpg",
+            "img/web/web_ff2th_4.gif",
+            "img/web/web_ff2th_3.gif",
+          ],
+        },
+        {
+          name: "遊戲 1 週年活動頁",
+          skills: ["HTML", "CSS", "javascript", "jQuery"],
+          url: "",
+          description: [
+            "Photoshop製作視覺layout",
+            "使用HTML和CSS進行網頁設計切版",
+            "使用JavaScript、jQuery開發前端功能",
+          ],
+          img: [
+            "img/web/web_ff1th_1.jpg",
+            "img/web/web_ff1th_2.jpg",
+            "img/web/web_ff1th_3.jpg",
+          ],
+        },
+        {
+          name: "遊戲 3 週年活動頁",
+          skills: ["HTML", "CSS", "javascript", "jQuery"],
+          url: "",
+          description: [
+            "Photoshop製作視覺layout",
+            "使用HTML和CSS進行響應式網頁設計切版",
+            "使用JavaScript、jQuery開發前端功能",
+          ],
+          img: [
+            "img/web/web_so_1.jpg",
+            "img/web/web_so_2.jpg",
+            "img/web/web_so_3.jpg",
+            "img/web/web_so_4.jpg",
           ],
         },
       ],
