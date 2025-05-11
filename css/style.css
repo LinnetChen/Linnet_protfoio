@@ -569,15 +569,6 @@ button:focus {
   border-radius: 20px;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
-  background-color: #ffffff;
-  height: 5px;
-  border-radius: 20%;
-}
-.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #35291b;
-}
-
 section {
   margin: 0;
   padding: 0;
@@ -956,4 +947,95 @@ body header .imgBox .titleBox .scrollDown div p:nth-child(2) {
   100% {
     transform: scale(1);
   }
+}
+.sec02 .swiper {
+  overflow-x: hidden;
+  width: 100%;
+  padding-bottom: 50px;
+}
+@media all and (max-width: 768px) {
+  .sec02 .swiper {
+    padding-top: 0;
+  }
+}
+.sec02 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: auto;
+  text-align: center;
+}
+.sec02 .swiper-slide img {
+  display: inline-block;
+  width: 100%;
+  border-radius: 20px;
+}
+@media all and (max-width: 768px) {
+  .sec02 .swiper-slide img {
+    border-radius: 10px;
+  }
+}
+.sec02 .swiper .swiper-button-prev,
+.sec02 .swiper .swiper-button-next {
+  top: 40%;
+  width: 55px;
+  height: 55px;
+  z-index: 9;
+  transition: 0.3s all;
+  color: #35291b;
+  background: #fff;
+  border-radius: 20px;
+  opacity: 0.5;
+  border: 2px solid #fff;
+}
+.sec02 .swiper .swiper-button-prev:after,
+.sec02 .swiper .swiper-button-next:after {
+  font-size: 25px;
+}
+.sec02 .swiper .swiper-button-prev:hover,
+.sec02 .swiper .swiper-button-next:hover {
+  opacity: 0.8;
+}
+@media all and (max-width: 425px) {
+  .sec02 .swiper .swiper-button-prev,
+  .sec02 .swiper .swiper-button-next {
+    display: none;
+  }
+}
+
+.sec03 .swiper {
+  overflow-x: hidden;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.sec03 .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 600px;
+  height: auto;
+  text-align: center;
+  margin: auto -20px;
+}
+@media all and (max-width: 768px) {
+  .sec03 .swiper-slide {
+    width: 500px;
+  }
+}
+@media all and (max-width: 576px) {
+  .sec03 .swiper-slide {
+    width: 280px;
+  }
+}
+.sec03 .swiper-slide img {
+  display: inline-block;
+  width: 100%;
+  border: 10px solid #fff;
+  border-radius: 10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  background-color: #ffffff;
+  height: 5px;
+  border-radius: 20%;
 }/*# sourceMappingURL=style.css.map */

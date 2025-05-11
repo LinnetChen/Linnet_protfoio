@@ -562,14 +562,3 @@ button {
         }
     }
 }
-
-.swiper-pagination {
-    .swiper-pagination-bullet {
-        background-color: $background-color_4;
-        height: 5px;
-        border-radius: 20%;
-    }
-    .swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-color: $background-color_3;
-    }
-}

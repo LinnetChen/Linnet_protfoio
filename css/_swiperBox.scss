@@ -1,9 +1,9 @@
-.s4 {
+.sec02 {
   .swiper {
     overflow-x: hidden;
     width: 100%;
     padding-bottom: 50px;
-    @include media-sptb {
+    @include md {
       padding-top: 0;
     }
     &-slide {
@@ -17,13 +17,13 @@
       display: inline-block;
       width: 100%;
       border-radius: 20px;
-      @include media-sptb {
+      @include md {
         border-radius: 10px;
       }
     }
     .swiper-button-prev,
     .swiper-button-next {
-      top: 50%;
+      top: 40%;
       width: 55px;
       height: 55px;
       z-index: 9;
@@ -36,18 +36,16 @@
       &:after {
         font-size: 25px;
       }
-      &:hover,
-      &:focus,
-      &.active {
-        opacity: 1;
+      &:hover {
+        opacity: 0.8;
       }
-      @include media-sptb {
+      @include x3s {
         display: none;
       }
     }
   }
 }
-.s5 {
+.sec03 {
   .swiper {
     overflow-x: hidden;
     width: 100%;
@@ -60,10 +58,10 @@
       height: auto;
       text-align: center;
       margin: auto -20px;
-      @include media-sp {
+      @include md {
         width: 500px;
       }
-      @include media-narrow {
+      @include sm {
         width: 280px;
       }
     }
@@ -80,8 +78,5 @@
     background-color: #ffffff;
     height: 5px;
     border-radius: 20%;
-    &.swiper-pagination-bullet-active {
-      background-color: #35291b;
-    }
   }
 }
