@@ -834,6 +834,31 @@ section .section_1_box .time {
   opacity: 1;
 }
 
+.sec02 .pTitle {
+  font-weight: 700;
+}
+.sec02 .descriptionA {
+  font-size: 17px;
+}
+.sec02 .list li {
+  text-align: left;
+  font-size: 16px;
+  list-style-type: disc;
+  margin-left: 40px;
+  line-height: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+.sec02 .githubIcon {
+  text-align: center;
+  color: #fff;
+  background-color: #453125;
+  padding: 5px 20px;
+  border: 1px solid #453125;
+  border-radius: 5px;
+  transition: 0.3s all;
+  font-size: 17px;
+}
+
 .sec03 .swiper {
   overflow-x: hidden;
   width: 100%;

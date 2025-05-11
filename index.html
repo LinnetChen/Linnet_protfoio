@@ -63,21 +63,22 @@
       <div class="project" v-for="(i,key) in projects" :key="i">
         <!-- text -->
         <div class="secText">
-          <p>{{i.name}}</p>
+          <p class="pTitle">{{i.name}}</p>
+
+          <!-- 顯示 descriptionA -->
+          <p class="descriptionA" v-if="i.descriptionA">{{ i.descriptionA }}</p>
+
+          <!-- 顯示 descriptionB -->
+          <ul class="list" v-if="i.descriptionB && i.descriptionB.length">
+            <li v-for="(desc, index) in i.descriptionB" :key="i.name + 'descB' + index">{{ desc }}</li>
+          </ul>
+
           <div class="skillWrap">
             <a v-if="i.url && i.url !== '#'" target="_blank" rel="noreferrer noopener" :href=i.url>
               <div class="githubIcon">查看網頁</div>
             </a>
             <label v-for="(skill,key) in i.skills" :key="i + 'skill'">{{ skill }}</label>
           </div>
-
-          <!-- 顯示 descriptionA -->
-          <p v-if="i.descriptionA">{{ i.descriptionA }}</p>
-
-          <!-- 顯示 descriptionB -->
-          <ul v-if="i.descriptionB && i.descriptionB.length">
-            <li v-for="(desc, index) in i.descriptionB" :key="i.name + 'descB' + index">{{ desc }}</li>
-          </ul>
         </div>
         <!-- banner -->
         <div class="banner">
