@@ -65,6 +65,9 @@
         <div class="secText">
           <p>{{i.name}}</p>
           <div class="skillWrap">
+            <a target="_blank" rel="noreferrer noopener" :href=i.url>
+              <div class="githubIcon">查看網頁</div>
+            </a>
             <label v-for="(skill,key) in i.skills" :key="i + 'skill'">{{ skill }}</label>
           </div>
         </div>

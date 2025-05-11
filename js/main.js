@@ -39,7 +39,7 @@ const App = {
         {
           name: "遊戲 2 週年活動頁",
           skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "",
+          url: "project/Fly_20230614_event2anniversary(noTidy)/index.html",
           description: [
             "Photoshop製作視覺layout",
             "使用HTML和CSS進行網頁設計切版",
@@ -54,7 +54,7 @@ const App = {
         {
           name: "遊戲 1 週年活動頁",
           skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "",
+          url: "project/",
           description: [
             "Photoshop製作視覺layout",
             "使用HTML和CSS進行網頁設計切版",
@@ -69,7 +69,7 @@ const App = {
         {
           name: "遊戲 3 週年活動頁",
           skills: ["HTML", "CSS", "javascript", "jQuery"],
-          url: "",
+          url: "project/SRO_20221209_event3anniversary/index.html",
           description: [
             "Photoshop製作視覺layout",
             "使用HTML和CSS進行響應式網頁設計切版",
@@ -85,7 +85,7 @@ const App = {
         {
           name: "遊戲事前預約頁",
           skills: ["SCSS", "javascript", "jQuery", "Vue.js"],
-          url: "",
+          url: "project/bp_prereg/prereg.html",
           description: [
             "Photoshop製作視覺layout",
             "使用HTML和CSS進行響應式網頁設計(RWD)",
