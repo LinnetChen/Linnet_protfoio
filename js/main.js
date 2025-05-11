@@ -40,11 +40,13 @@ const App = {
           name: "遊戲事前預約頁",
           skills: ["SCSS", "javascript", "jQuery", "Vue.js"],
           url: "project/bp_prereg/prereg.html",
-          description: [
-            "Photoshop製作視覺layout",
-            "使用HTML和CSS進行響應式網頁設計(RWD)",
-            "使用JavaScript、jQuery、Vue.js開發前端功能",
-            "swiper套件使用",
+          descriptionA:
+            "色彩鮮明、角色可愛、活動互動性高，吸引目標族群參與事前預約。",
+          descriptionB: [
+            "RWD 響應式網頁設計，支援各種裝置瀏覽",
+            "Photoshop 製作視覺設計與網頁素材",
+            "HTML/CSS/JavaScript 切版與互動功能實作",
+            "使用 Swiper 套件製作角色介紹與遊戲畫面輪播",
           ],
           img: [
             "img/web/web_bp_1.jpg",
@@ -57,12 +59,14 @@ const App = {
         },
         {
           name: "遊戲 2 週年活動頁",
-          skills: ["HTML", "CSS", "javascript", "jQuery"],
+          skills: ["HTML", "CSS", "javascript", "jQuery", "css動畫"],
           url: "project/Fly_20230614_event2anniversary(noTidy)/index.html",
-          description: [
-            "Photoshop製作視覺layout",
-            "使用HTML和CSS進行網頁設計切版",
-            "使用JavaScript、jQuery開發前端功能",
+          descriptionA:
+            "2週年夏日抽卡活動頁，煙火動畫營造節慶氛圍、卡面閃亮動畫聚焦玩家目光。",
+          descriptionB: [
+            "Photoshop 製作整體 UI 與主視覺設計元素。",
+            "使用 HTML/CSS/JavaScript ，開發翻卡互動遊戲",
+            "動畫（卡片翻轉、煙火標題、閃亮特效）皆以 CSS 動畫結合 JavaScript 控制實現。",
           ],
           img: [
             "img/web/web_ff2th_2.gif",
@@ -103,6 +107,8 @@ const App = {
           ],
         },
       ],
+      // showModal: false,
+      // selectedImg: "",
     };
   },
   mounted() {
@@ -152,6 +158,14 @@ const App = {
         },
         loop: true,
       });
+    },
+
+    openModal(img) {
+      this.selectedImg = img;
+      this.showModal = true;
+    },
+    closeModal() {
+      this.showModal = false;
     },
   },
 };
