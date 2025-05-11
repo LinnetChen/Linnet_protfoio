@@ -641,7 +641,7 @@ textarea {
   line-height: 35px;
   font-size: 1.3rem;
   font-weight: 800;
-  background: url(img/front/sec2_box2Bg.png);
+  background: url(/project/bp_prereg/img/front/sec2_box2Bg.png);
   background-color: #fff;
   border: 5px solid #fff;
   display: flex;
@@ -776,7 +776,7 @@ textarea {
   position: absolute;
   top: 36%;
   left: 16px;
-  background-image: url(img/front/barDeco.png);
+  background-image: url(/project/bp_prereg/img/front/barDeco.png);
   width: 21px;
   height: 21px;
   background-repeat: no-repeat;
@@ -830,7 +830,7 @@ textarea {
   }
 }
 .slideBarR .bg {
-  background: url(img/front/slideBarR.png);
+  background: url(/project/bp_prereg/img/front/slideBarR.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -867,13 +867,13 @@ textarea {
   }
 }
 .slideBarR .bg .fb {
-  background: url(img/front/fb.png);
+  background: url(/project/bp_prereg/img/front/fb.png);
 }
 .slideBarR .bg .google {
-  background: url(img/front/google.png);
+  background: url(/project/bp_prereg/img/front/google.png);
 }
 .slideBarR .bg .ios {
-  background: url(img/front/ios.png);
+  background: url(/project/bp_prereg/img/front/ios.png);
 }
 .slideBarR .bg .fb,
 .slideBarR .bg .google,
@@ -889,7 +889,7 @@ textarea {
   max-height: 59px;
 }
 .slideBarR .bg .top {
-  background: url(img/front/top.png);
+  background: url(/project/bp_prereg/img/front/top.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -924,7 +924,7 @@ textarea {
   }
 }
 .slideBarDown .bg {
-  background: url(img/front/slideBarDown.png);
+  background: url(/project/bp_prereg/img/front/slideBarDown.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -959,10 +959,10 @@ textarea {
   }
 }
 .slideBarDown .bg .google {
-  background: url(img/front/google.png);
+  background: url(/project/bp_prereg/img/front/google.png);
 }
 .slideBarDown .bg .ios {
-  background: url(img/front/ios.png);
+  background: url(/project/bp_prereg/img/front/ios.png);
 }
 .slideBarDown .bg .google,
 .slideBarDown .bg .ios {
@@ -977,10 +977,10 @@ textarea {
   max-height: 59px;
 }
 .slideBarDown .bg .fb {
-  background: url(img/front/fbM.png);
+  background: url(/project/bp_prereg/img/front/fbM.png);
 }
 .slideBarDown .bg .top {
-  background: url(img/front/topM.png);
+  background: url(/project/bp_prereg/img/front/topM.png);
 }
 .slideBarDown .bg .top,
 .slideBarDown .bg .fb {
@@ -1175,7 +1175,7 @@ body {
   }
 }
 .section.section1 {
-  background: url(../img/front/sec01BgPC.jpg);
+  background: url(/project/bp_prereg/img/front/sec01BgPC.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1183,35 +1183,35 @@ body {
 }
 @media all and (max-width: 900px) {
   .section.section1 {
-    background: url(img/front/sec01BgM.jpg);
+    background: url(/project/bp_prereg/img/front/sec01BgM.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 .section.section2 {
-  background: url(img/front/sec02BgPC.png);
+  background: url(/project/bp_prereg/img/front/sec02BgPC.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media all and (max-width: 900px) {
   .section.section2 {
-    background: url(img/front/sec02BgM.png);
+    background: url(/project/bp_prereg/img/front/sec02BgM.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 .section.section3 {
-  background: url(img/front/sec03BgPC.png);
+  background: url(/project/bp_prereg/img/front/sec03BgPC.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media all and (max-width: 900px) {
   .section.section3 {
-    background: url(img/front/sec031BgM.png);
+    background: url(/project/bp_prereg/img/front/sec031BgM.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1219,35 +1219,35 @@ body {
 }
 @media all and (max-width: 900px) {
   .section.section31, .section.section32 {
-    background: url(img/front/sec031BgM.png);
+    background: url(/project/bp_prereg/img/front/sec031BgM.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 .section.section4 {
-  background: url(img/front/sec04BgPC.png);
+  background: url(/project/bp_prereg/img/front/sec04BgPC.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media all and (max-width: 900px) {
   .section.section4 {
-    background: url(img/front/sec04BgM.png);
+    background: url(/project/bp_prereg/img/front/sec04BgM.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
 .section.section5 {
-  background: url(img/front/sec05BgPC.png);
+  background: url(/project/bp_prereg/img/front/sec05BgPC.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 @media all and (max-width: 900px) {
   .section.section5 {
-    background: url(img/front/sec05BgM.png);
+    background: url(/project/bp_prereg/img/front/sec05BgM.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -1255,7 +1255,7 @@ body {
 }
 
 .LOGO {
-  background: url(img/front/LOGO.png);
+  background: url(/project/bp_prereg/img/front/LOGO.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1300,7 +1300,7 @@ body {
   }
 }
 .section1 .box .logoBox .LOGO {
-  background: url(img/front/LOGO.png);
+  background: url(/project/bp_prereg/img/front/LOGO.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1355,7 +1355,7 @@ body {
   max-height: 505px;
 }
 .section1 .box .box1 .sec01TitlePC {
-  background: url(img/front/sec01TitlePC.png);
+  background: url(/project/bp_prereg/img/front/sec01TitlePC.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1368,7 +1368,7 @@ body {
 }
 @media all and (max-width: 900px) {
   .section1 .box .box1 .sec01TitlePC {
-    background: url(img/front/sec01TitleM.png);
+    background: url(/project/bp_prereg/img/front/sec01TitleM.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1391,7 +1391,7 @@ body {
   }
 }
 .section1 .box .box2 .sec01dogM {
-  background: url(img/front/sec01dogM.png);
+  background: url(/project/bp_prereg/img/front/sec01dogM.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1483,7 +1483,7 @@ body {
 .section2 .sec_box .sec2_box2 {
   width: 40%;
   height: 77%;
-  background: url(img/front/sec2_box2Bg.png);
+  background: url(/project/bp_prereg/img/front/sec2_box2Bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1662,10 +1662,10 @@ body {
 }
 .section2 .sec_box .sec2_box2 .sec2_box5 .reserve {
   cursor: pointer;
-  background: url(img/front/reserve.png);
+  background: url(/project/bp_prereg/img/front/reserve.png);
 }
 .section2 .sec_box .sec2_box2 .sec2_box5 .reserved {
-  background: url(img/front/reserved.png);
+  background: url(/project/bp_prereg/img/front/reserved.png);
 }
 .section2 .sec_box .sec2_box2 .sec2_box5 .reserve,
 .section2 .sec_box .sec2_box2 .sec2_box5 .reserved {
@@ -2358,7 +2358,7 @@ body {
   }
 }
 .section4 .sec_box .sec4_box2 .sec4_box3 .textBox .text1_box .title {
-  background: url(img/front/sec4_t1bg.png);
+  background: url(/project/bp_prereg/img/front/sec4_t1bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -2392,7 +2392,7 @@ body {
   }
 }
 .section4 .sec_box .sec4_box2 .sec4_box3 .textBox .text2_box .title {
-  background: url(img/front/sec4_t2bg.png);
+  background: url(/project/bp_prereg/img/front/sec4_t2bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -2566,7 +2566,7 @@ body {
 }
 
 .swiper-button-next {
-  background: url(img/front/arrowL.png);
+  background: url(/project/bp_prereg/img/front/arrowL.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2590,7 +2590,7 @@ body {
 }
 
 .swiper-button-prev {
-  background: url(img/front/arrowR.png);
+  background: url(/project/bp_prereg/img/front/arrowR.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

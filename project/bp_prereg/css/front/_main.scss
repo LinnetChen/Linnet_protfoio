@@ -82,37 +82,37 @@ body {
     }
 
     &.section1 {
-        background: url(../img/front/sec01BgPC.jpg);
+        background: url(/project/bp_prereg/img/front/sec01BgPC.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         max-width: 1920px;
         @include md {
-            background: url(img/front/sec01BgM.jpg);
+            background: url(/project/bp_prereg/img/front/sec01BgM.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
     }
     &.section2 {
-        background: url(img/front/sec02BgPC.png);
+        background: url(/project/bp_prereg/img/front/sec02BgPC.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         @include md {
-            background: url(img/front/sec02BgM.png);
+            background: url(/project/bp_prereg/img/front/sec02BgM.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
     }
     &.section3 {
-        background: url(img/front/sec03BgPC.png);
+        background: url(/project/bp_prereg/img/front/sec03BgPC.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         @include md {
-            background: url(img/front/sec031BgM.png);
+            background: url(/project/bp_prereg/img/front/sec031BgM.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -121,31 +121,31 @@ body {
     &.section31,
     &.section32 {
         @include md {
-            background: url(img/front/sec031BgM.png);
+            background: url(/project/bp_prereg/img/front/sec031BgM.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
     }
     &.section4 {
-        background: url(img/front/sec04BgPC.png);
+        background: url(/project/bp_prereg/img/front/sec04BgPC.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         @include md {
-            background: url(img/front/sec04BgM.png);
+            background: url(/project/bp_prereg/img/front/sec04BgM.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
     }
     &.section5 {
-        background: url(img/front/sec05BgPC.png);
+        background: url(/project/bp_prereg/img/front/sec05BgPC.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         @include md {
-            background: url(img/front/sec05BgM.png);
+            background: url(/project/bp_prereg/img/front/sec05BgM.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;

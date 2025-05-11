@@ -33,7 +33,7 @@
             width: 40%;
             height: 77%;
             // background-color: rgba(83, 106, 98, 0.549);
-            background: url(img/front/sec2_box2Bg.png);
+            background: url(/project/bp_prereg/img/front/sec2_box2Bg.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -192,10 +192,10 @@
                 }
                 .reserve {
                     cursor: pointer;
-                    background: url(img/front/reserve.png);
+                    background: url(/project/bp_prereg/img/front/reserve.png);
                 }
                 .reserved {
-                    background: url(img/front/reserved.png);
+                    background: url(/project/bp_prereg/img/front/reserved.png);
                 }
                 .reserve,
                 .reserved {

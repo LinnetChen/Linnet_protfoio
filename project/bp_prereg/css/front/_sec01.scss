@@ -1,5 +1,5 @@
 .LOGO {
-    background: url(img/front/LOGO.png);
+    background: url(/project/bp_prereg/img/front/LOGO.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -37,7 +37,7 @@
                 width: 37%;
             }
             .LOGO {
-                background: url(img/front/LOGO.png);
+                background: url(/project/bp_prereg/img/front/LOGO.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -83,7 +83,7 @@
                 max-height: 505px;
             }
             .sec01TitlePC {
-                background: url(img/front/sec01TitlePC.png);
+                background: url(/project/bp_prereg/img/front/sec01TitlePC.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
@@ -94,7 +94,7 @@
                 max-width: 1181px;
                 max-height: 505px;
                 @include md {
-                    background: url(img/front/sec01TitleM.png);
+                    background: url(/project/bp_prereg/img/front/sec01TitleM.png);
                     background-repeat: no-repeat;
                     background-size: contain;
                     background-position: center;
@@ -113,7 +113,7 @@
                 bottom: 6%;
             }
             .sec01dogM {
-                background: url(img/front/sec01dogM.png);
+                background: url(/project/bp_prereg/img/front/sec01dogM.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;

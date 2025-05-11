@@ -83,7 +83,7 @@
                     position: absolute;
                     top: 36%;
                     left: 16px;
-                    background-image: url(img/front/barDeco.png);
+                    background-image: url(/project/bp_prereg/img/front/barDeco.png);
                     width: 21px;
                     height: 21px;
                     background-repeat: no-repeat;
@@ -140,7 +140,7 @@
         display: none;
     }
     .bg {
-        background: url(img/front/slideBarR.png);
+        background: url(/project/bp_prereg/img/front/slideBarR.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -172,13 +172,13 @@
             }
         }
         .fb {
-            background: url(img/front/fb.png);
+            background: url(/project/bp_prereg/img/front/fb.png);
         }
         .google {
-            background: url(img/front/google.png);
+            background: url(/project/bp_prereg/img/front/google.png);
         }
         .ios {
-            background: url(img/front/ios.png);
+            background: url(/project/bp_prereg/img/front/ios.png);
         }
         .fb,
         .google,
@@ -194,7 +194,7 @@
             max-height: 59px;
         }
         .top {
-            background: url(img/front/top.png);
+            background: url(/project/bp_prereg/img/front/top.png);
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center;
@@ -226,7 +226,7 @@
         background-color: #ffb72a;
     }
     .bg {
-        background: url(img/front/slideBarDown.png);
+        background: url(/project/bp_prereg/img/front/slideBarDown.png);
         background-repeat: no-repeat;
         background-size: contain;
         // background-position: left;
@@ -264,10 +264,10 @@
             }
         }
         .google {
-            background: url(img/front/google.png);
+            background: url(/project/bp_prereg/img/front/google.png);
         }
         .ios {
-            background: url(img/front/ios.png);
+            background: url(/project/bp_prereg/img/front/ios.png);
         }
 
         .google,
@@ -285,10 +285,10 @@
         }
 
         .fb {
-            background: url(img/front/fbM.png);
+            background: url(/project/bp_prereg/img/front/fbM.png);
         }
         .top {
-            background: url(img/front/topM.png);
+            background: url(/project/bp_prereg/img/front/topM.png);
         }
         .top,
         .fb {
